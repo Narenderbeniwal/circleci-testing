@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running let's get some other values as well "
+    return "Flask app is running let's devlop it on azure "
 
 
 port = int(os.getenv("PORT", 5001))
